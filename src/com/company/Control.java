@@ -2,6 +2,10 @@ package com.company;
 
 import java.util.Date;
 
+/**
+ * This class includes the control information and specifies the type
+ */
+
 public class Control {
     Type type;
     String measurementUnit;
