@@ -7,14 +7,14 @@ import java.util.Date;
  */
 
 public class Control {
-    Type type;
+    ControlType type;
     String measurementUnit;
     String frequency;
     String humanImpact;
     String hazardLevel;
     Date orderDate;
 
-    public Control(Type type, String measurementUnit, String frequency, String humanImpact, String hazardLevel, Date orderDate) {
+    public Control(ControlType type, String measurementUnit, String frequency, String humanImpact, String hazardLevel, Date orderDate) {
         this.type = type;
         this.measurementUnit = measurementUnit;
         this.frequency = frequency;
@@ -23,17 +23,13 @@ public class Control {
         this.orderDate = orderDate;
     }
 
-    enum Type {
-        waterPH,
-        turbidity,
-        dissolvedOxygen
-    }
 
-    public Type getType() {
+
+    public ControlType getType() {
         return type;
     }
 
-    public void setType(Type type) {
+    public void setType(ControlType type) {
         this.type = type;
     }
 
