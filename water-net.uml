@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>com.company.Laboratory</OriginalElement>
+  <nodes>
+    <node x="261.5" y="859.0">com.company.ControlResult</node>
+    <node x="0.0" y="209.0">com.company.Location</node>
+    <node x="243.0" y="198.0">com.company.Control</node>
+    <node x="537.125" y="0.0">com.company.ControlType</node>
+    <node x="520.625" y="275.0">com.company.Laboratory</node>
+    <node x="850.5015323992993" y="149.43957968476354">com.company.Main</node>
+    <node x="850.0015323992993" y="241.077057793345">com.company.ControlOrder</node>
+    <node x="279.0" y="644.0">com.company.Sample</node>
+    <node x="302.1383333333333" y="0.0">com.company.Control.Type</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.company.Sample" target="com.company.Laboratory" relationship="DEPENDENCY">
+      <point x="46.0" y="-82.5" />
+      <point x="417.0" y="614.0" />
+      <point x="585.375" y="614.0" />
+      <point x="-64.75" y="116.0" />
+    </edge>
+    <edge source="com.company.Laboratory" target="com.company.ControlType" relationship="DEPENDENCY">
+      <point x="64.75" y="-116.0" />
+      <point x="714.875" y="171.0" />
+      <point x="706.625" y="171.0" />
+      <point x="56.5" y="72.0" />
+    </edge>
+    <edge source="com.company.Sample" target="com.company.Control" relationship="DEPENDENCY">
+      <point x="-15.333333333333371" y="-82.5" />
+      <point x="355.66666666666663" y="604.0" />
+      <point x="307.0" y="604.0" />
+      <point x="-64.0" y="193.0" />
+    </edge>
+    <edge source="com.company.Control" target="com.company.Control.Type" relationship="TO_ONE">
+      <point x="0.0" y="-193.0" />
+      <point x="371.0" y="171.0" />
+      <point x="392.1383333333333" y="171.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="com.company.Sample" target="com.company.Location" relationship="TO_ONE">
+      <point x="-76.66666666666674" y="-82.5" />
+      <point x="294.33333333333326" y="624.0" />
+      <point x="55.75" y="624.0" />
+      <point x="-55.75" y="182.0" />
+    </edge>
+    <edge source="com.company.ControlResult" target="com.company.Sample" relationship="DEPENDENCY">
+      <point x="54.75" y="-116.0" />
+      <point x="425.75" y="834.0" />
+      <point x="417.0" y="834.0" />
+      <point x="46.0" y="82.5" />
+    </edge>
+    <edge source="com.company.ControlResult" target="com.company.Sample" relationship="TO_ONE">
+      <point x="-54.75" y="-116.0" />
+      <point x="316.25" y="834.0" />
+      <point x="325.0" y="834.0" />
+      <point x="-46.0" y="82.5" />
+    </edge>
+    <edge source="com.company.Sample" target="com.company.Laboratory" relationship="TO_ONE">
+      <point x="76.66666666666669" y="-82.5" />
+      <point x="447.66666666666674" y="624.0" />
+      <point x="714.875" y="624.0" />
+      <point x="64.75" y="116.0" />
+    </edge>
+    <edge source="com.company.Sample" target="com.company.Location" relationship="DEPENDENCY">
+      <point x="-46.0" y="-82.5" />
+      <point x="325.0" y="614.0" />
+      <point x="167.25" y="614.0" />
+      <point x="55.75" y="182.0" />
+    </edge>
+    <edge source="com.company.Sample" target="com.company.Control" relationship="TO_ONE">
+      <point x="15.333333333333314" y="-82.5" />
+      <point x="386.33333333333337" y="604.0" />
+      <point x="435.0" y="604.0" />
+      <point x="64.0" y="193.0" />
+    </edge>
+    <edge source="com.company.Control.Type" target="com.company.Control" relationship="INNER_CLASS">
+      <point x="-60.0" y="72.0" />
+      <point x="332.1383333333333" y="171.0" />
+      <point x="285.6666666666667" y="171.0" />
+      <point x="-85.33333333333331" y="-193.0" />
+    </edge>
+    <edge source="com.company.Laboratory" target="com.company.ControlType" relationship="TO_ONE">
+      <point x="-64.75" y="-116.0" />
+      <point x="585.375" y="171.0" />
+      <point x="593.625" y="171.0" />
+      <point x="-56.5" y="72.0" />
+    </edge>
+    <edge source="com.company.Control" target="com.company.Control.Type" relationship="DEPENDENCY">
+      <point x="85.33333333333331" y="-193.0" />
+      <point x="456.3333333333333" y="171.0" />
+      <point x="452.1383333333333" y="171.0" />
+      <point x="60.0" y="72.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.7093167701863354" showDependencies="true" x="426.0" y="515.8581436077058" />
+  <SelectedNodes>
+    <node>com.company.Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
