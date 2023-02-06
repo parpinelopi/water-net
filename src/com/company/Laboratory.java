@@ -1,12 +1,16 @@
 package com.company;
 
+
+/**
+ * This class represents the collaborating laboratories
+ */
+
 public class Laboratory {
     String name;
     String laboratoryId;
-    String controlType;
+    ControlType controlType;
 
-
-    public Laboratory(){
+    public Laboratory(String name, String laboratoryId, ControlType controlType) {
         this.name = name;
         this.laboratoryId = laboratoryId;
         this.controlType = controlType;
@@ -28,11 +32,11 @@ public class Laboratory {
         this.laboratoryId = laboratoryId;
     }
 
-    public String getControlType() {
+    public ControlType getControlType() {
         return controlType;
     }
 
-    public void setControlType(String controlType) {
+    public void setControlType(ControlType controlType) {
         this.controlType = controlType;
     }
 
