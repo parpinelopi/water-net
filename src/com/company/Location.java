@@ -1,5 +1,9 @@
 package com.company;
 
+/**
+ *This class includes the location from where the sample is taken from
+ */
+
 public class Location {
 
     String coordinateX;
